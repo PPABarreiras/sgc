@@ -1,0 +1,275 @@
+-------------------
+<!-- Bloco Chaves -->
+            <!--<div class="Main_Cont3_Bloco1">
+                <h4>CHAVES</h4>
+                <div>
+                    <i class='bx bx-slider'></i>
+                    <span>Filtros</span>
+                </div>
+            </div>
+            <!-- Predio -->
+            <div class="Main_Cont3_Bloco-Chaves">
+                <!-- Nome do Predio -->
+                <div class="Name_Bloco_Predo">
+                    <div></div>
+                    <h4>Prédio 1</h4>
+                    <div></div>
+                </div>
+                <!-- Dados do Predio -->
+                <div class="Bloco_Chaves">
+                        <!--  -->
+                        <div class="arrow_left_div">
+                            <button id="arrow_left_chaves">
+                                <i class='bx bx-chevron-left' ></i>
+                            </button>
+                        </div>
+                        <!--  -->
+                        <div class="arrow_right_div">
+                            <button id="arrow_right_chaves">
+                                <i class='bx bx-chevron-right'></i>
+                            </button>
+                        </div>
+                    <div class="Container_Chaves_Ul">
+                        <ul class="Bloco_Chaves_UL">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>-->
+-------------------
+
+
+-------------------
+<!--<li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 101</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>-->
+-------------------
+
+
+-------------------
+<div class="Main_Cont3_Bloco-Chaves">
+                <!-- Nome do Predio -->
+                <div class="Name_Bloco_Predo">
+                    <div></div>
+                    <h4>Prédio 1</h4>
+                    <div></div>
+                </div>
+                <!-- Dados do Predio -->
+                <div class="Bloco_Chaves">
+                        <!--  -->
+                        <div class="arrow_left_div">
+                            <button id="arrow_left_chaves">
+                                <i class='bx bx-chevron-left' ></i>
+                            </button>
+                        </div>
+                        <!--  -->
+                        <div class="arrow_right_div">
+                            <button id="arrow_right_chaves">
+                                <i class='bx bx-chevron-right'></i>
+                            </button>
+                        </div>
+                    <div class="Container_Chaves_Ul">
+                        <ul class="Bloco_Chaves_UL">
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 101</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 102</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 103</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 104</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 105</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 106</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 107</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 108</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                            <li class="Bloco_Chaves_LI" id="Chaves_Li_Predio1">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <img src="../Assets/Chave.png" alt="Ilustração chave">
+                                </div>
+                                <div>
+                                    <h4>Sala 109</h4>
+                                    <span>status:</span>
+                                    <div>
+                                        <div></div>
+                                        <h4>Disponivél</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="AGENDAR">
+                                    <input type="submit" value="RETIRAR">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-------------------
+

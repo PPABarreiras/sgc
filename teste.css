@@ -1,0 +1,260 @@
+@import url(../Funcionario/CSS/GLOBAL/Fonts&Color.css);
+
+/* CONFIG POPUPS */
+/* @keyframes animacaoPop {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animacaoPopActive {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
+
+@keyframes animacaoPop {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animacaoPopActive {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.POPUPS {
+    position: absolute;
+    z-index: 100;
+    top: -60px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(2px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    animation: animacaoPop 0.4s ease-in-out;
+}
+
+.POPUPS.active {
+    display: flex;
+    animation: animacaoPopActive 0.4s ease-in-out;
+}
+
+/* -------- POPUP CADASTRO -------- */
+@keyframes animacaoPopCad {
+    0% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+@keyframes animacaoPopCadActive {
+    0% {
+        margin-top: -1000px;
+        scale: 0;
+    }
+
+    100% {
+        margin-top: 0px;
+        scale: 1;
+    }
+}
+
+.FormAlterarChave {
+    position: absolute;
+    margin-top: 150px;
+    right: 350px;
+    background-image: linear-gradient(120deg, #2D4065 10%, rgb(183, 0, 255) 400%);
+    width: 450px;
+    height: 280px;
+    top: 100px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 40px rgba(0, 0, 0, 0.4);
+    animation: animacaoPopCad 0.2s ease-in-out;
+}
+
+.FormAlterarChave {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    animation: animacaoPopCadActive 0.4s ease-in-out;
+}
+
+.FormAlterarChave>div:nth-child(1) {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.FormAlterarChave>div:nth-child(1)>div {
+    height: 200px;
+    width: 2px;
+    background-color: #5C81CA;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/*inform*/
+ .FormAlterarChave>div:nth-child(2)> div > h4:nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.FormAlterarChave>div:nth-child(2)> div > h4:nth-child(2) {
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 136, 0);
+}
+.FormAlterarChave>div:nth-child(2)> div {
+    padding-bottom: 20px;
+}
+
+
+.informacoes_alt > div:nth-child(3) > select{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);   
+}
+
+
+/* .informacoes_alt > div:nth-child(1){
+    margin-left: 100px;
+} */
+
+
+.informacoes_alt>h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.informacoes_alt>div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.informacoes_alt>div>input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.informacoes_alt>div>input:focus {
+    outline: none;
+}
+
+/*salvar e fecha*/
+.FormAlterarChave>div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 195px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.FormAlterarChave>div:nth-child(3)>div>i {
+    font-size: 30px;
+    color: #5C81CA;
+    transform: rotate(0deg);
+    transition: 0.4s ease-in-out;
+}
+
+.FormAlterarChave>div:nth-child(3)>div>i:hover {
+    color: #ff4747;
+    transform: rotate(90deg);
+    transition: 0.4s ease-in-out;
+}
+
+.FormAlterarChave>div:nth-child(3)>input {
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(270deg, #531ed8 0%, #855BF0 100%);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.FormAlterarChave>div:nth-child(3)>input:hover {
+    color: #FFC700;
+    font-size: 18px;
+}
+
+#logoChave{
+    width: 50px;
+}
+
+label{
+    width: 100px;
+}
+
+/* Continuação */
+
+.informacoes_alt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.junta{
+    display: flex;
+    flex-direction: column;
+    gap: -200px;
+}
+
+#div_title{
+    position: relative;
+    top: -20px;
+    height: 50px;
+    margin-bottom: 10px;
+}

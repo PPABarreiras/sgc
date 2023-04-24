@@ -1,0 +1,10 @@
+/*-------------Popup Agendamento--------------*/
+.Container_Popup_Agendamento{
+    height: 250px;
+    width: 500px;
+    /*background-color: #2D4065;*/
+    background-color: red;
+    position: absolute;
+    margin-top: -500px;
+    opacity: 0;
+}

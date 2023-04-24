@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&display=swap');
+/*font-family: 'Prompt', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap');
+/*font-family: 'Comfortaa', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;600;700&display=swap');
+/* font-family: 'Space Grotesk', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap');
+/*font-family: 'Chivo', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+/*font-family: 'Alata', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+/*font-family: 'Manrope', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+/*font-family: 'Armata', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+/* font-family: 'Alata', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+/* font-family: 'Sen', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500&display=swap');
+/* font-family: 'Reem Kufi', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;700&display=swap');
+/*  font-family: 'Nunito Sans', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+/*  font-family: 'NTR', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@300&display=swap');
+/*  font-family: 'Nokora', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap');
+/*  font-family: 'public-sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/*  font-family: 'noto-sans', sans-serif; */
+
+/*------------Color------------*/
+
+:root { 
+    --cor-plano-de-fundo: #F5F8FA;
+    --cor-inputs: #516080; 
+    --degrade-botao-enviar: linear-gradient(90deg, #6C42D9 22.87%, #885EF3 107.98%);
+    --cor-inputs-before: #aaa;
+    --cor-link-cadastro-before: #8b73c7;
+    --cor-link-cadastro: #8359EE;
+    --cor-titulo: #6E7995;
+    --cor-titulo3: #FF9900;
+    --error-message: #F23030;
+    --sucess-message: #3F9351;
+}

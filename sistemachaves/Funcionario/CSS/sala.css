@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.salas{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 150px;
+    
+}
+
+.container_predios{
+    /* max-height: 150px; */
+}
+
+.mini-container-sala {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    background-color: #2D4065;
+    border-radius: 10px;
+    gap: 15px;
+    padding-left: 10px;
+
+}
+
+.nome_sala{
+    font-size: 20px;
+    color: white;
+}
+
+.nome_func_sala{
+    color: #00FFF0;
+    font-family: "Armata";
+}
+.linha {
+    height: 70%;
+    width: 2px;
+    background-color: #5C81CA;
+}
+
+.img-chave-sala{
+    width: 15px;
+}
+
+.container_salas > a > h4{
+    margin-bottom: 10px;
+    color: white;
+}
+.mini-container-sala > section > button{
+    background: none;
+    border-style: none;
+}
+.botao-conf-sala{
+    width: 18px;
+    margin-left: 30px;
+}
+
+.botao_red{
+    width: 20px;
+}
+
+.mini-container-sala > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_predios > a{
+    text-decoration: none;
+}
+
+#titulo-cadastrar{
+    display: flex;
+    flex-direction: row;
+    gap: 70%;
+}
+
+#titulo-cadastrar > button{
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    background: #2D4065;
+    border-style: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: white;
+}
+
+/*--------------------------- Popup add ou excluir sala---------------------------*/
+
+.PopupAdicionarsala{
+    top: 38%;
+    left: 38%;
+    position: absolute;
+    background-color: #2D4065;
+    width: 350px;
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    display: none;
+
+}
+
+.ConteinarPopupAdicionarsala{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ConteinarPopupAdicionarsala > img {
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Lina_Popup_Adicionar{
+    height: 150px;
+    width: 1px;
+    background-color: #5C81CA;
+}
+.InformacoesPopupAdicionarsalas{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.InformoesPopupsalas_Bloco1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 70px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    color: white;
+}
+.InformoesPopupsalas_Bloco2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    color: white;
+}
+.IdNovosala {
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    align-items: center;
+    padding-left: 3px;
+    font-family: 'Chivo';
+    
+}
+.button_Adicionar_sala_Fecha{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: red;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.button_Adicionar_sala_Fecha > i {
+    font-size: 20px;
+}
+
+.button_salvar_sala_novo:hover{
+    color: rgb(218, 170, 0);    
+}
+
+.InformoesPopupsalas_Bloco2 > button{
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    font-size: 16px;
+    border-style: none;
+    background: #2D4065;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*--------------------------- Popup add sala---------------------------*/
+
+.PopupAddsala{
+    top: 38%;
+    left: 38%;
+    position: absolute;
+    background-color: #2D4065;
+    width: 350px;
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    display: none;
+    
+}
+.ConteinarPopupAddsala{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ConteinarPopupAddsala > img {
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Lina_Popup_Add{
+    height: 150px;
+    width: 1px;
+    background-color: #5C81CA;
+}
+.InformacoesPopupAddsalas{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.InformoesPopupAddsalas1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 70px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.InformoesPopupAddsalas2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    color: white;
+}
+.IdNovosala {
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    align-items: center;
+    padding-left: 3px;
+    font-family: 'Chivo';
+    
+}
+.button_Add_sala_Fecha{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: red;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.button_Add_sala_Fecha > i {
+    font-size: 20px;
+}
+
+.button_salvar_sala_novo:hover{
+    color: rgb(218, 170, 0);    
+}
+
+.InformoesPopupAddsalas2 > button{
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    font-size: 16px;
+    border-style: none;
+    background: #2D4065;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.InformoesPopupAddsalas3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.InformacoesPopupAddsalas > section > label{
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.numero-sala{
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+}
+
+.salvar-sala{
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.salvar-sala{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-image: linear-gradient(270deg, #6d43da 0%, #5725d3 100%);
+    font-family: 'Space Grotesk';
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.1s ease-in-out;
+}
+
+.salvar-sala:hover{
+    color: rgb(218, 170, 0); 
+}
+
+#back-predios{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Janela de excluir sala */
+.PopupExcluirsala{
+    top: 38%;
+    left: 38%;
+    position: absolute;
+    background-color: #2D4065;
+    width: 350px;
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    display: none;
+}
+.ConteinarPopupExcluirsala{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ConteinarPopupExcluirsala > img {
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.InformoesPopupExcluirsalas1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 100px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.InformoesPopupExcluirsalas2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    color: white;
+}
+
+
+.InformoesPopupExcluirsalas2 > button{
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    font-size: 16px;
+    border-style: none;
+    background: #2D4065;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.InformoesPopupExcluirsalas3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.InformacoesPopupExcluirsalas > section > label{
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.Lina_Popup_Excluir{
+    height: 150px;
+    width: 1px;
+    background-color: #5C81CA;
+    margin-top: 0vh;
+}
+
+.excluir-sala{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-image: linear-gradient(270deg, #6d43da 0%, #5725d3 100%);
+    font-family: 'Space Grotesk';
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    margin: 30px 0px 0px 130px;
+    transition: all 0.1s ease-in-out;
+}
+
+.excluir-sala:hover{
+    color: rgb(218, 170, 0); 
+}
+
+.InformoesPopupExcluirsalas1{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.InformacoesPopupExcluirsalas > section{
+    padding-top: 30px;
+}
+
+.button_Excluir_sala_Fecha{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: red;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.button_Excluir_sala_Fecha > i {
+    font-size: 20px;
+}

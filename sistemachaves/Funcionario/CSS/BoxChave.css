@@ -1,0 +1,96 @@
+.Conteiner_Sala_Predio1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.Sala_Predio1{
+    background-color: #2D4065;
+    border-radius: 20px;
+    width: 250px;
+    height: 370px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Sala_Predio1 > img {
+    width: 75px;
+    transform: rotate(-60deg);
+}
+
+/*---------- Text Sala ----------*/
+.Sala_Predio1_Infor_Sala{
+    display: flex;
+    justify-content: flex-start;
+    width: 230px;
+    gap: 10px;
+    margin-top: 5px;
+    font-family: 'Prompt';
+    font-size: 25px;
+    color: white;
+}
+/*---------- Text Status ----------*/
+.Sala_Predio1_Status{
+    display: flex;
+    justify-content: flex-start;
+    width: 230px;
+    font-family: 'Josefin Sans';
+    color: #7DA9FF;
+    margin-top: -5px;
+}
+/*---------- Disponivel ----------*/
+.Sala_Predio1_Infor_Status{
+    display: flex;
+    width: 230px;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    color: #00FF0A;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+}
+.Sala_Predio1_Infor_Status_SVG{
+    height: 10px;
+    width: 10px;
+    fill: #00FF0A;
+}
+/*---------- Agendar Retirar ----------*/
+.Sala_Predio1_button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+.Sala_Predio1_button_Agendar{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: 'Prompt';
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(270deg, #6D43DA 0%, #855BF0 100%);
+    border-style: none;
+}
+.Sala_Predio1_button_Retirar{
+    border-style: none;
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: 'Prompt';
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(270deg, #DACB43 0%, #F0A35B 100%);
+}
+
+@media (max-width: 1366px){
+    body{
+        overflow-y: auto;
+    }
+}

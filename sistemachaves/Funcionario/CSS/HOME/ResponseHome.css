@@ -1,0 +1,34 @@
+@import url(/Funcionario/CSS/HOME/Home.css);
+@media screen and (max-width: 1366px) {
+    /*Predio Line*/
+    .Name_Bloco_Predo > div:nth-child(3){
+        width: 700px;
+        height: 2px;
+        background-image: linear-gradient(90deg,#5C81CA, rgba(92,129,202,0) 100%);
+        transition: 0.4s ease-in-out;
+    }
+    .Main_Cont3.active > .Main_Cont3_Bloco-Chaves >.Name_Bloco_Predo > div:nth-child(3){
+        width: 880px;
+        transition: 0.4s ease-in-out;
+    }
+    .arrow_left_div {
+        left: -40px;
+    }
+    .arrow_right_div {
+        left: 1020px;
+    }
+    .Main_Cont3.active .arrow_right_div{
+        left: 1180px;
+        transition: 0.5s ease-in-out;
+    }
+    .Container_Chaves_Ul {
+        width: 1110px;
+        overflow-x: hidden;
+        transition: 0.4s ease-in-out;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        height: 420px;
+        margin-top: -25px;
+    }
+}

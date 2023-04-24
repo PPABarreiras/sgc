@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGC - CADASTRO</title>
+    <!-- CSS GLOBAL -->
+    <link href='../Funcionario/CSS/GLOBAL/Tab_Bar.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link href="teste.css" rel="stylesheet" type="text/css" />
+    <link href="../Funcionario/CSS/GERENCIAMENTO/Gerenciamento.css" rel="stylesheet" type="text/css" />
+    <!-- JAVASCRIPT GLOBAL -->
+    <script src="../Funcionario/JS/GLOBAL/TabBar.js" type="text/javascript" defer></script>
+    <!-- JAVASCRIPT -->
+    <script src="teste.js" type="text/javascript" defer></script>
+    <script src="../Funcionario/JS/GERENCIAMENTO/alterarchave.js" type="text/javascript" defer></script>
+    <script src="../Funcionario/JS/GERENCIAMENTO/Gerenciamento.js" type="text/javascript" defer></script>
+    <!-- CSS ASSETS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='../Funcionario/CSS/Fonts&Color.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- ../Funcionario/PHP/GERENCIAMENTO/Chave.php -->
+    <form action="teste.php" method="post" onsubmit="return abrirFormNovaChave()">
+        <input type="text" name='nome'>
+        <input type="submit" id="enviar_alteracao1"></input>
+        <!-- <button id="enviar_alteracao1"></button> -->
+    </form>
+    
+                               
+        <div class="POPUPS">
+        <!-- Agendar Prédio -->
+        <div class="PoPuAgendarChave">
+            <!-- Formulário Cadastro Prédio action="../Funcionario/PHP/Agendar/postAgendar.php"  -->
+            <form class="FormAlterarChave" method="POST" action="../Funcionario/PHP/GERENCIAMENTO/Chave.php" id="FormaAgendarChave">
+                <div>
+                    <img id="logoChave" src="/sistemachaves/img/Chave.png" alt="Ilustração da chave">
+                    <div></div>
+                </div>
+                <div class="junta">
+                    <div id="div_title">
+                        <h4 id="Titulo">Novos dados</h4>
+                    </div>
+                    <div class="informacoes_alt">
+                        <div>
+                            <label for="numChave">Nº Chave: </label>
+                            <input type="number" name="numChave" id="Matricula_agendamento" placeholder="Nº:">
+                        </div>
+                        <div>
+                            <label for="idPredio">Nº Predio: </label>
+                            <input type="number" name="idPredio" id="idPredio" placeholder="Nº: "> 
+                        </div>
+                        <div>
+                            <label for="idChave">Descrição: </label>
+                            <select id="DescriChave" name="DescriChave" form="CadastroChaves">
+                                <option value="Sala">Sala</option>
+                                <option value="Laboratório">Laboratório</option>
+                                <option value="Auditório">Auditório</option>
+                                <option value="Ginásio">Ginásio</option>
+                                <option value="Banheiro">Banheiro</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input style="display: none" name="tipo" id="tipo" type="text" value="AgendarChave">
+                    <div><i class='bx bx-x-circle' id="Fecha_pop_up_X"></i></div>
+                    <input type="submit" value="Alterar" id="enviar_alteracao2">
+                </div>
+            </form>
+        </div>
+        </div>
+    </main>
+</body>
+</html>

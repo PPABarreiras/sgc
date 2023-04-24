@@ -1,0 +1,409 @@
+@import url(../Funcionario/CSS/GLOBAL/Fonts&Color.css);
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #2D4065;
+}
+::-webkit-scrollbar-thumb {
+    background: #5677b9;
+}
+
+/* Config para Todas as Telas */
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+.Header{
+    height: 791px;
+    width: 220px;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #38507D 0%, #23314E 100%);;
+    position: relative;
+    box-shadow: 10px 0px 20px rgba(0,0,0,0.05);
+    transition: all 0.5s ease-in-out;
+
+}
+.Header.status2{
+    height: 791px;
+    width: 60px;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #38507D 0%, #23314E 100%);;
+    position: relative;
+    box-shadow: 10px 0px 20px rgba(0,0,0,0.05);
+    transition: all 0.5s ease-in-out;
+
+}
+.Main{
+    height: 791px;
+    width: 1220px;
+    background: #202E49;
+    /*background: linear-gradient(68.1deg, #1F2D48 38.1%, #2e426b 164.22%);*/
+    transition: all 0.5s ease-in-out;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.Main.status2{
+    height: 791px;
+    width: 1380px;
+    background: #202E49;
+    /*background: linear-gradient(68.1deg, #1F2D48 38.1%, #2e426b 164.22%);*/
+    transition: all 0.5s ease-in-out;
+
+}
+.Main_Cont1{
+    width: 1220px;
+}
+.Main_Cont2{
+    width: 1220px;
+}
+.Main_Cont3{
+    width: 1220px;
+}
+/* CONFIG HEADER */
+
+/*-----DIMENSÃO BARRA---*/
+.Nav.status1{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+.Nav.status2{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+/*-----BLOCO 1 BARRA---*/
+.Logo_SGC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 180px;
+    width: 360px;
+    overflow: hidden;
+    gap: 10px;
+    margin-top: -20px;
+    transition: 0.5s ease-in-out;
+}
+.Logo_SGC > div:nth-child(1){
+    width: 320px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10px;
+}
+.Logo_SGC > div:nth-child(1) > img{
+    height: 80px;
+}
+.Logo_SGC > div:nth-child(1) > span{
+    font-family: 'Alata', sans-serif;
+    font-size: 16px;
+    color: #5977A5;
+}
+.Logo_SGC > div:nth-child(2){
+    width: 200px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Logo_SGC > div:nth-child(2) > img{
+    height: 140px;
+}
+/*-----BLOCO 2 BARRA---*/
+.Container_Opc{
+    margin-top: 40px;
+}
+.Ul_Barra{
+    width: 220px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Li_Barra{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.Item_Barra{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: 0.5s ease-in-out;
+}
+.Div_Item_Barra{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #5977A5;
+}
+.Item_Barra > span{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5977A5;
+    transition: 0.5s ease-in-out;
+}
+/*Sobre*/
+.Li_Barra:nth-child(6){
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Li_Barra:nth-child(6) > div{
+    width: 180px;
+    height: 1px;
+    opacity: 0.5;
+    background-color: #5977A5;
+    transition: 0.5s ease-in-out;
+}
+.Li_Barra:nth-child(6) > a{
+    margin-top: 10px;
+}
+/*Exit*/
+.Li_Barra:nth-child(7){
+    margin-top: 50px;
+
+}
+.Li_Barra:nth-child(7) > a{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #546E9F;
+    font-size: 35px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+
+}
+.Li_Barra:nth-child(7) > a > i{
+    transform: rotate(180deg);
+    color: white;
+}
+/*---------ITENS ATIVADOS--------*/
+/*ITENS LOGO*/
+.Nav.status2 > .Logo_SGC{
+    margin-left: -265px;
+}
+/*ITENS UL*/
+.Item_Barra.active{
+    animation: BarraActiveAnimation 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+@keyframes BarraActiveAnimation{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 20px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+@keyframes BarraActiveAnimation2{
+    0%{
+        font-size: 25px;
+    }
+    50%{
+        font-size: 30px;
+    }
+    100%{
+        font-size: 25px;
+    }
+}
+.Item_Barra.active > span{
+    color: #ff8800;
+    transition: 0.5s ease-in-out;
+}
+.Item_Barra.active > div > i{
+    color: #ff8800;
+    transition: 0.5s ease-in-out;
+}
+/*DIMENCIONAMENTO BARRA*/
+.Name_Item_Barra.Status1{
+    margin-left: 0px;
+    transition: 0.3s ease-in-out;
+}
+.Name_Item_Barra.Status2{
+    margin-left: 50px;
+    transition: 0.3s ease-in-out;
+}
+.Icon_Item_Barra.active{
+    margin-top: 100px;
+}
+.Nav.status2 > .Container_Opc > .Ul_Barra > .Li_Barra:nth-child(6) > div{
+    width: 30px;
+    transition: 0.5s ease-in-out;
+}
+.Nav.status2 > .Container_Opc > .Ul_Barra > .Li_Barra:nth-child(7) > a{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #546E9F;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+.Nav.status2 > .Container_Opc > .Ul_Barra > .Li_Barra > a{
+    transition: 0.5s ease-in-out;
+    margin-left: 1px;
+}
+.Nav.status2 > .Container_Opc > .Ul_Barra > .Li_Barra > a > span {
+    margin-left: 10px;
+    transition: 0.5s ease-in-out;
+}
+.Nav.status2 > .Container_Opc > .Ul_Barra > .Li_Barra > .Item_Barra.active{
+    animation: none;
+}
+.Nav.status2 > .Container_Opc > .Ul_Barra > .Li_Barra > .Item_Barra.active > .Div_Item_Barra > i{
+    animation: BarraActiveAnimation2 0.5s ease-in-out;
+}
+/*---------INDICADORES--------*/
+
+.indicadore{
+    height: 781px;
+    width: 200px;
+    position: absolute;
+    z-index: 0;
+}
+.indicador2{
+    position: absolute;
+    height: 25px;
+    width: 4px;
+    background-color: #ff8800;
+    top: 202px;
+    left: 0px;
+    box-shadow: 2px 0px 10px #ff8800;
+    transition: 0.5s ease-in-out;
+}
+.indicador3{
+    position: absolute;
+    height: 25px;
+    width: 4px;
+    background-color: #ff8800;
+    top: 201px;
+    left: 256.5px;
+    box-shadow: -2px 0px 10px #ff8800;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.indicador3.active{
+    position: absolute;
+    height: 25px;
+    width: 4px;
+    background-color: #ff8800;
+    top: 201px;
+    left: 60px;
+    box-shadow: -2px 0px 0px #ff8800;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    filter: blur(6px);
+    transition: 0.5s ease-in-out;
+}
+.indicador1{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+.indicador1.active{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+.indicador1 > div{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #38507D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 0px 10px #2D4065;
+    z-index: 100;
+    border-radius: 5px;
+    transition: 0.1s ease-in-out;
+    overflow: hidden;
+}
+.indicador1 > div:hover{
+    height: 30px;
+    width: 30px;
+    transition: 0.1s ease-in-out;
+}
+.indicador1 > div > i{
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+    transform: translate(12px) rotate(00deg);
+}
+.indicador1.active > div > i:nth-child(1){
+    transform: rotate(180deg) translate(-12px);
+    transition: 0.3s ease-in-out;
+}
+.indicador1.active > div:hover > i:nth-child(1){
+    transform: rotate(180deg) translate(10px);
+    transition: 0.3s ease-in-out;
+}
+.indicador1.active > div > i:nth-child(2){
+    transform: rotate(180deg) translate(-5px);
+    transition: 0.3s ease-in-out;
+}
+.indicador1.active > div:hover > i:nth-child(2){
+    transform: rotate(180deg) translate(16px);
+    transition: 0.3s ease-in-out;
+}
+.indicador1 > div > i:nth-child(1){
+    color: white;
+}
+.indicador1 > div > i:nth-child(2){
+    color: #fbff00;
+}
+.indicador1 > div:hover i{
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+    transform: translate(-15px);
+}

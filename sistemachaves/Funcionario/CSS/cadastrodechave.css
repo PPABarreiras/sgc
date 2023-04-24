@@ -1,0 +1,145 @@
+.Infor_Gerenciamento_Cadastro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+/* --------------- Nome Gerenciamento ---------------*/
+.Infor_Gerenciamento > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.Infor_Gerenciamento > a > h3{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+
+}
+
+.Infor_Gerenciamento > a > i{
+    color: #ffffff;
+    font-size: 25px;
+    width: 15px;
+}
+/* --------------- Nome Cadastro ---------------*/
+
+.Infor_Gerenciamento_Cadastro > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.Infor_Gerenciamento_Cadastro > a > h3{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+
+}
+
+.Infor_Gerenciamento_Cadastro > a > i{
+    color: #ffffff;
+    font-size: 25px;
+    width: 15px;
+}
+/* --------------- Form ---------------*/
+.container_cadastro{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form_cadastro{
+    height: 500px;
+    width: 900px;
+    background-color: #2D4065;
+    font-family: 'Prompt';
+    color: #5977A5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.nmr_chave{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 5px;
+}
+.nmr_chave > h4 {
+    font-size: 30px;
+}
+.nmr_chave > #nome {
+    width: 800px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Space Grotesk';
+}
+/*--------------------------*/
+.nmr_predio{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 50px;
+
+}
+.nmr_predio > h4 {
+    font-size: 30px;
+}
+.nmr_predio > #predio {
+    width: 800px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Space Grotesk';
+}
+/*--------------------------*/
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 50px;
+
+}
+.desc > h4 {
+    font-size: 30px;
+}
+.desc > #desc{
+    width: 800px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Space Grotesk';
+
+}
+/*--------------------------*/
+.bnt_input {
+    margin-top: 50px;
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.bnt_input > input {
+    background-image: linear-gradient(270deg, #1b0650 0%, #5725d3 100%);
+    width: 150px;
+    height: 40px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+}

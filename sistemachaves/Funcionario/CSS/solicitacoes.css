@@ -1,0 +1,171 @@
+@import url(/Funcionario/CSS/Tab_Bar.css);
+@import url(../Funcionario/CSS/GLOBAL/Fonts&Color.css);
+.indicador2{
+    top: 367px;
+}
+
+.Main_Cont1{
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+.Main_Cont1 > h3{
+    font-weight: 500;
+}
+.Main_Cont1 > i {
+    color: #4b69a7;
+    font-size: 45px;
+}
+
+.Infor_Gerenciamento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Infor_Gerenciamento>a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.Infor_Gerenciamento>a>h3 {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+.Infor_Gerenciamento>a>i {
+    color: #ffffff;
+    font-size: 25px;
+    width: 15px;
+}
+.botao-agendar {
+    font-family: 'Armata', sans-serif;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 20px 40px;
+    background: linear-gradient(270deg, #8258ED 0%, #AC00C8 91.8%);
+
+    cursor: pointer;
+}
+
+.divisao { 
+    margin-top: 30px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.divisao p {
+    font-size: 25px;
+    color: #5C81CA;
+}
+.linha {   
+    display: flex;
+    width: 70%;
+    border-bottom: 2px solid #5C81CA;
+    box-sizing: border-box;
+}
+
+
+.container-pendente {
+    border-radius: 4px;
+    font-family: 'Armata', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* background: linear-gradient(90deg, #00FF19 -10.44%, #213967 41.47%); */
+    background: url(../../Assets/fundo-solicitacoes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 924px;
+    width: 80%;
+    height: 143px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.container-pendente:hover{
+    filter: drop-shadow(5px 10px 20px rgba(0, 0, 0, 0.1));
+}
+
+.container-pendente>img {
+    width: 37px;
+    transform: rotate(180deg);
+    margin-left: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+.container-pendente .linha-horizontal {
+    display: flex;
+    height: 50%;
+    border-left: 2px solid #467EEC;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.botao-chave {
+    /* position: flex; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding: 20px 20px;
+    border-radius: 17px;
+    border: none;
+    background-color: #2D4A81;
+    color: white;
+
+    cursor: pointer;
+    animation: 2s ease-in-out;
+}
+.botao-chave > .chave-recebida { 
+    display: table-cell;
+    vertical-align: top;
+    
+}
+.chave-recebida {
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    order: -1;
+}
+.botao-chave:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.048);
+}
+
+.botao-chave>i {
+    font-size: 30px;
+
+    color: #00FF0A;
+}
+.botao-chave img { 
+    width: 60%;
+}
+
+.Main_Cont2{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 140px;
+}
